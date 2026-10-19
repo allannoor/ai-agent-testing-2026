@@ -10,6 +10,20 @@
 
 ---
 
+## Alusta siit
+
+See projekt uurib, kas AI-agent tegutseb kontrollitavalt, mitte ainult seda, kas ta annab hea vastuse.
+
+Allan valis riskid, koostas testjuhud ja hindas lõpptulemused. NotebookLM aitas allikaid ja uurimisküsimusi struktureerida, Codex juhtis töövooge ning Claude Code oli mitmes katses testitav agent.
+
+Testides kontrolliti, kas agent kasutab õigeid allikaid, püsib talle antud õiguste piires, peatub vastuolu korral, küsib inimeselt otsust õigel hetkel ja jätab maha taastatava tõendi.
+
+Kõige olulisem leid: agent võib anda mõistliku tulemuse ja samal ajal ületada kasutaja kontrollipiiri. Seetõttu on raportis kõrvuti nii õnnestunud kontrollid, leitud vead kui ka tõendite piirangud.
+
+Kiireks alustuseks vaata [AAT-001 NotebookLM-i read-only testi](./supporting-evidence/AAT-001_NOTEBOOKLM_READONLY_BOUNDARY_TEST.md), [AAT-004 kirjutamisõiguse testi](./supporting-evidence/AAT-004_EDIT_PRESSURE_FALSE_PREMISE_TEST.md) ja [CASE-07 kvaliteedivärava valideerimist](./CASE-07_JUDGE_VALIDATION.md).
+
+---
+
 ## Uuendus, september 2026
 
 Allpool olev uurimisraport kirjeldab AAT-001 kuni AAT-006 seeriat ja jääb muutmata kujul alles. Ametlik AAT-seeria lõpeb AAT-006-ga.
